@@ -1,0 +1,12 @@
+:host {
+  display: block;
+}
+
+.container {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}

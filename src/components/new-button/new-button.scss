@@ -1,0 +1,79 @@
+ :host {
+  display: block;
+} 
+
+.c-btn {
+ color: rgb(255, 255, 255); 
+cursor: pointer;
+border: none;
+ border-radius: 6px;
+}
+
+.c-btn--primary {
+  color: rgb(0, 9, 70);
+  border: 1px solid rgb(0, 0, 0);
+
+}
+
+.c-btn--outline {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid blue;
+}
+
+.c-btn--text {
+  border: none;
+  color: rgb(9, 48, 245);
+  background-color: white;
+}
+
+
+ .c-btn--large {
+  height: 60px;
+  width: 160px;
+ }
+
+ .c-btn--medium {
+  height: 40px;
+  width: 120px;
+ }
+
+ .c-btn--small {
+  height: 30px;
+  width: 80px;
+ }
+
+
+ .c-btn--normal {
+  background-color: rgb(24, 24, 190);
+ }
+
+ .c-btn--warning {
+  background-color: rgb(216, 174, 5);
+  color:black
+ }
+
+ .c-btn--error {
+  background-color: rgb(233, 5, 17);
+ }
+
+ .c-btn--success {
+  background-color: rgb(4, 158, 55);
+ }
+
+ .c-btn--disabled {
+  cursor: not-allowed;
+  background-color: rgb(187, 197, 206);
+ }
+
+
+ .imageclass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .iconclass {
+  width: 30%;
+  margin-left: -16%;
+ }
