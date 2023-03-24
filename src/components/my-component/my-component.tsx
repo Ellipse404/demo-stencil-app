@@ -1,14 +1,6 @@
 import { Component, Prop, h, getAssetPath } from '@stencil/core';
 import { format } from '../../utils/utils';
 
-// export const IconComponent {
-//   render() {
-//     const imageSrc = getAssetPath('../../assets/upload.png')
-// return <img src={imageSrc} />
-//   }
-// }
-
-
 @Component({
   tag: 'my-component',
   styleUrl: 'my-component.scss',
