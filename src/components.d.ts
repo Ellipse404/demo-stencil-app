@@ -14,7 +14,7 @@ export namespace Components {
     interface NewButton {
         "buttonText": string;
         "color": 'normal' | 'warning' | 'error' | 'success';
-        "icon"?: HTMLElement;
+        "icon"?: HTMLElement | HTMLImageElement;
         "isDisabled"?: boolean;
         "size": 'large' | 'medium' | 'small';
         "variant": 'primary' | 'outline' | 'text';
@@ -47,7 +47,7 @@ declare namespace LocalJSX {
     interface NewButton {
         "buttonText"?: string;
         "color"?: 'normal' | 'warning' | 'error' | 'success';
-        "icon"?: HTMLElement;
+        "icon"?: HTMLElement | HTMLImageElement;
         "isDisabled"?: boolean;
         "size"?: 'large' | 'medium' | 'small';
         "variant"?: 'primary' | 'outline' | 'text';

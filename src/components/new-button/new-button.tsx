@@ -17,7 +17,7 @@ export class ButtonComponent {
   @Prop() isDisabled?: boolean
   
   //icon
-  @Prop() icon?: HTMLElement
+  @Prop() icon?: HTMLElement | HTMLImageElement
   
   //size
   @Prop() size: 'large' | 'medium' | 'small' = 'medium'
